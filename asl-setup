@@ -1,4 +1,5 @@
 #!/bin/bash
+cd .bin
 wget https://raw.githubusercontent.com/jaws316/asl/main/dodropin-c
 chmod 755 dodropin-c
 wget https://raw.githubusercontent.com/jaws316/asl/main/dodropin-d
