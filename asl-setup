@@ -12,14 +12,18 @@ wget https://raw.githubusercontent.com/jaws316/asl/main/gb3dq-c
 chmod 755 gb3dq-c
 wget https://raw.githubusercontent.com/jaws316/asl/main/gb3dq-d
 chmod 755 gb3dq-d
-wget https://raw.githubusercontent.com/jaws316/asl/main/gb3fh-c
-chmod 755 gb3fh-c
-wget https://raw.githubusercontent.com/jaws316/asl/main/gb3fh-d
-chmod 755 gb3fh-d
+wget https://raw.githubusercontent.com/jaws316/asl/main/anzel-c
+chmod 755 anzel-c
+wget https://raw.githubusercontent.com/jaws316/asl/main/anzel-d
+chmod 755 anzel-d
 wget https://raw.githubusercontent.com/jaws316/asl/main/mx0onl-c
 chmod 755 mx0onl-c
 wget https://raw.githubusercontent.com/jaws316/asl/main/mx0onl-d
 chmod 755 mx0onl-d
+wget https://raw.githubusercontent.com/jaws316/asl/main/hubnet-c
+chmod 755 hubnet-c
+wget https://raw.githubusercontent.com/jaws316/asl/main/hubnet-d
+chmod 755 hubnet-d
 cd /etc/asterisk/local/
 wget https://raw.githubusercontent.com/jaws316/asl/main/condis.sh
 chmod 755 condis.sh
