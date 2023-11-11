@@ -1,9 +1,9 @@
 #!/bin/bash
 cd .bin
 wget https://raw.githubusercontent.com/jaws316/asl/main/420net-c
-chmod 755 dodropin-c
+chmod 755 420net-c
 wget https://raw.githubusercontent.com/jaws316/asl/main/420net-d
-chmod 755 dodropin-d
+chmod 755 420net-d
 wget https://raw.githubusercontent.com/jaws316/asl/main/dodropin-c
 chmod 755 dodropin-c
 wget https://raw.githubusercontent.com/jaws316/asl/main/dodropin-d
