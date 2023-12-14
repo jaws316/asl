@@ -1,8 +1,0 @@
-#!/bin/bash
-lip=$(hostname -i)
-echo ""
-echo "My lAN IP Address Is:" $lip
-echo ""
-wip="$(dig +short myip.opendns.com @resolver1.opendns.com)"
-echo "My WAN IP Address Is: ${wip}"
-echo ""
