@@ -12,9 +12,6 @@ wget https://raw.githubusercontent.com/jaws316/asl/main/mx0onl-c
 wget https://raw.githubusercontent.com/jaws316/asl/main/mx0onl-d
 wget https://raw.githubusercontent.com/jaws316/asl/main/hubnet-c
 wget https://raw.githubusercontent.com/jaws316/asl/main/hubnet-d
-wget https://raw.githubusercontent.com/jaws316/asl/main/aip
-wget https://raw.githubusercontent.com/jaws316/asl/main/lip
-wget https://raw.githubusercontent.com/jaws316/asl/main/wip
 chmod 755 *
 cd /etc/asterisk/local/
 wget https://raw.githubusercontent.com/jaws316/asl/main/condis.sh
