@@ -1,29 +1,21 @@
 #!/bin/bash
 cd .bin
 wget https://raw.githubusercontent.com/jaws316/asl/main/420net-c
-chmod 755 420net-c
 wget https://raw.githubusercontent.com/jaws316/asl/main/420net-d
-chmod 755 420net-d
 wget https://raw.githubusercontent.com/jaws316/asl/main/dodropin-c
-chmod 755 dodropin-c
 wget https://raw.githubusercontent.com/jaws316/asl/main/dodropin-d
-chmod 755 dodropin-d
 wget https://raw.githubusercontent.com/jaws316/asl/main/gb3dq-c
-chmod 755 gb3dq-c
 wget https://raw.githubusercontent.com/jaws316/asl/main/gb3dq-d
-chmod 755 gb3dq-d
 wget https://raw.githubusercontent.com/jaws316/asl/main/anzel-c
-chmod 755 anzel-c
 wget https://raw.githubusercontent.com/jaws316/asl/main/anzel-d
-chmod 755 anzel-d
 wget https://raw.githubusercontent.com/jaws316/asl/main/mx0onl-c
-chmod 755 mx0onl-c
 wget https://raw.githubusercontent.com/jaws316/asl/main/mx0onl-d
-chmod 755 mx0onl-d
 wget https://raw.githubusercontent.com/jaws316/asl/main/hubnet-c
-chmod 755 hubnet-c
 wget https://raw.githubusercontent.com/jaws316/asl/main/hubnet-d
-chmod 755 hubnet-d
+wget https://raw.githubusercontent.com/jaws316/asl/main/aip
+wget https://raw.githubusercontent.com/jaws316/asl/main/lip
+wget https://raw.githubusercontent.com/jaws316/asl/main/wip
+chmod 755 *
 cd /etc/asterisk/local/
 wget https://raw.githubusercontent.com/jaws316/asl/main/condis.sh
 chmod 755 condis.sh
