@@ -1,0 +1,4 @@
+#!/bin/bash
+cd /srv/http/supermon
+wget https://raw.githubusercontent.com/jaws316/asl/main/favorites.ini
+cd
