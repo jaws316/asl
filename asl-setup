@@ -3,3 +3,4 @@ cd .bin
 wget https://raw.githubusercontent.com/jaws316/asl/main/favorites-update
 chmod 755 favorites-update
 cd
+rm asl-setup
