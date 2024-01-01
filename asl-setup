@@ -1,6 +1,8 @@
 #!/bin/bash
 cd .bin
 wget https://raw.githubusercontent.com/jaws316/asl/main/favorites-update
+wget https://raw.githubusercontent.com/jaws316/asl/main/reboot.sh
+wget https://raw.githubusercontent.com/jaws316/asl/main/shutdown.sh
 chmod 755 favorites-update
 cd
 rm asl-setup
