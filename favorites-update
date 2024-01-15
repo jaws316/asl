@@ -2,4 +2,7 @@
 cd /srv/http/supermon
 rm favorites.ini
 wget https://raw.githubusercontent.com/jaws316/asl/main/favorites.ini
+cd /srv/http/supermon2/user_files
+rm favorites.ini
+wget https://raw.githubusercontent.com/jaws316/asl/main/favorites.ini
 cd
