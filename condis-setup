@@ -1,6 +1,0 @@
-#!/bin/bash
-cd /etc/asterisk/local/
-wget https://raw.githubusercontent.com/jaws316/asl/main/condis.sh
-chmod 755 condis.sh
-cd
-e /etc/asterisk/local/condis.sh
