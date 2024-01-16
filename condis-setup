@@ -2,9 +2,5 @@
 cd /etc/asterisk/local/
 wget https://raw.githubusercontent.com/jaws316/asl/main/condis.sh
 chmod 755 condis.sh
-cd ~/.bin/
-wget https://raw.githubusercontent.com/jaws316/asl/main/ddi-c.sh
-wget https://raw.githubusercontent.com/jaws316/asl/main/ddi-d.sh
-chmod 755 ddi-c.sh
-chmod 755 ddi-d.sh
 cd
+e /etc/asterisk/local/condis.sh
