@@ -7,4 +7,9 @@ wget https://raw.githubusercontent.com/jaws316/asl/main/shutdown.sh
 chmod 755 reboot.sh
 chmod 755 shutdown.sh
 cd
+cd /etc/asterisk/local/
+wget https://raw.githubusercontent.com/jaws316/asl/main/condis.sh
+chmod 755 condis.sh
+cd
+e /etc/asterisk/local/condis.sh
 rm asl-setup
