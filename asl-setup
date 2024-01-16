@@ -4,8 +4,10 @@ wget https://raw.githubusercontent.com/jaws316/asl/main/favorites-update
 chmod 755 favorites-update
 wget https://raw.githubusercontent.com/jaws316/asl/main/reboot.sh
 wget https://raw.githubusercontent.com/jaws316/asl/main/shutdown.sh
+wget https://raw.githubusercontent.com/jaws316/asl/main/notices.sh
 chmod 755 reboot.sh
 chmod 755 shutdown.sh
+chmod 755 notices.sh
 cd
 cd /etc/asterisk/local/
 wget https://raw.githubusercontent.com/jaws316/asl/main/condis.sh
@@ -13,4 +15,7 @@ chmod 755 condis.sh
 cd
 e /etc/asterisk/local/condis.sh
 mkdir notices
+cd /usr/local/sbin/
+https://raw.githubusercontent.com/jaws316/asl/main/random.sh
+chmod 755 random.sh
 rm asl-setup
