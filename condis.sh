@@ -1,1 +1,2 @@
-/usr/sbin/asterisk -rx "rpt fun 45503 $1"
+# edit nodenumber
+/usr/sbin/asterisk -rx "rpt fun nodenumber $1"
