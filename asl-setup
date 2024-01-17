@@ -16,6 +16,7 @@ cd
 e /etc/asterisk/local/condis.sh
 mkdir notices
 cd /usr/local/sbin/
-https://raw.githubusercontent.com/jaws316/asl/main/random.sh
+wget https://raw.githubusercontent.com/jaws316/asl/main/random.sh
 chmod 755 random.sh
+cd
 rm asl-setup
